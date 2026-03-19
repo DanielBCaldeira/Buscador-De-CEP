@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.home-content input{
+    padding: 0.3rem;
+    border: 2px solid #8c8cff;
+    border-radius: 0.5rem;
+    outline: none;
+}
+.home-content button{
+    padding: 0.3rem;
+    border: none;
+    background-color: #0000ff;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+}
